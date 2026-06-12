@@ -1,8 +1,4 @@
-export type CleanOptions = {
-  removeExtraSpaces?: boolean;
-  removeLineBreaks?: boolean;
-  removeSpecialChars?: boolean;
-};
+import { CleanOptions } from "@/types/text-cleaner";
 
 export function cleanText(text: string, options: CleanOptions) {
   let result = text;

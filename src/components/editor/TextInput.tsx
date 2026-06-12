@@ -9,6 +9,7 @@ export function TextInput({value, onChange}:TextInputProps){
     return(
         <Textarea
         placeholder="Paste your text here..."
+        className="min-h-45"
         value={value}
         onChange={(e)=>onChange(e.target.value)}
         />

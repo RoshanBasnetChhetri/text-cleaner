@@ -11,6 +11,7 @@ export function TextOutput({
     <Textarea
       readOnly
       value={value}
+      className="min-h-45"
     />
   );
 }
